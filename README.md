@@ -22,24 +22,25 @@ In order to determine the percentage of votes each candidate got, we need to cre
 # Module 3 Challenge  
 ## Challenge Overview
 The election commission has requested that we also determine the voter turnout for each county, the percentage of votes from each county out of the total count, and the county with the highest turnout. We will use the same .csv file for this analysis.
-### Methods
+## Methods
 Given the starter code, we initialized a county list (county_options) to hold the names of the counties in the data and a dictionary(county_votes). WE then created a string to help us track the largest county and county voter turnout. We already had a for loop with the election results data inside, we added code into the for loop that allowed us to get the county name from each row. We then added another if statement inside the for loop. It states that if a county name is not yet in the county options, it will be added. We can then begin tracking each county's vote count, adding a vote to the count for every loop. We then wrote another for loop, this one needed to get the county from its respective dictionary, retrieve the county vote count, and calculate the percentage of votes for each county. We then printed these results and saved them to our text file. We wrote an if statement in our new for loop, this time to determine which couty had the largest voter turnout and what its vote count was. We saved the result to the same text file.  
 ![county_forloop](https://user-images.githubusercontent.com/96501958/150663749-8cf95b55-2a59-4aca-8cc0-75a865e425af.png)  
 
-### Results
+## Results
 +How many votes were cast in this congressional election?
   + 369,711 votes
-+Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
-  +The votes came from 3 different counties: Jefferson, Denver, and Arapahoe. Arapahoe county had the least amount of votes (24,801), making up 6.7% of the total votes. Jefferson county had 10.5% of the votes, or 38,855 votes. Denver county had the largest number of votes, making up 82.8% of the total votes and a vote count of 306, 055. 
-+Which county had the largest number of votes?
-  + Denver
-+Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-  +The three candidates who received votes were Charles Casper Stockham, Diana DeGette, and Raymon Anthony Doane.     +Charles Casper Stockham received 85,213 votes, 23.0% of total votes. 
-  +Diana DeGette received 272,892 votes, 73.8% of total votes. 
-  +Raymon Anthony Doane received 11,606 votes, 3.1% of total votes. 
-+Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
++Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.  
+  +The votes came from 3 different counties: Jefferson, Denver, and Arapahoe. Arapahoe county had the least amount of votes (24,801), making up 6.7% of the total votes. Jefferson county had 10.5% of the votes, or 38,855 votes. Denver county had the largest number of votes, making up 82.8% of the total votes and a vote count of 306, 055.  
++Which county had the largest number of votes?  
+  + Denver  
++Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.  
+  +The three candidates who received votes were Charles Casper Stockham, Diana DeGette, and Raymon Anthony Doane.     +Charles Casper Stockham received 85,213 votes, 23.0% of total votes.  
+  +Diana DeGette received 272,892 votes, 73.8% of total votes.  
+  +Raymon Anthony Doane received 11,606 votes, 3.1% of total votes.  
++Which candidate won the election, what was their vote count, and what was their percentage of the total votes?  
   + Diana DeGette won the election, receiving 73.8% of the vote and 272,892 total votes  
 ![results_terminal](https://user-images.githubusercontent.com/96501958/150663903-257669c6-17d9-4a04-b9fe-759d5b4dcf1c.png)  
 ![results_txt](https://user-images.githubusercontent.com/96501958/150663906-49a59f3c-2c95-4757-9caf-6b42f5030e6d.png)  
 
-## Challenge Summary
+## Challenge Summary  
+We performed an analysis for the CO Board of Elections Commitee to determine various calculations from the given election data. We used python in Visual Studio Code to sift through the data and effeciently find: the winner of the election, votes and percentage of votes received for each candidate, the county with the largest voter turnout, and the voter turnout/ percent turnout of each county in the data. To do this we used for loops, decision statements, and f-strings to have the computer calculate the results we were looking for and output the results into a text file to give to the Elections Committee. This code can be used again in future elections by making some minor modifications. For one, you would need to adjust the file names to be sure you are pulling from the right data and saving to the right location.  This code can also be used for bigger elections, if you were to switch out counties for states, this script could be used for a national election.  If so, it would be able to pull the candidates vote count and percentage, as it does currently. It would also be able to determine which states had the best voter turnout. If the data had additional columns, such as party affilliation, early voting, or voting method; you can use the code written to analyze differnt data. Instead of looking at voter counts for candidates in each county/state, you could determine the voting method used. 
