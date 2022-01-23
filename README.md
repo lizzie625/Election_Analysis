@@ -44,6 +44,7 @@ Given the starter code, we initialized a county list (county_options) to hold th
 
 5. Which candidate won the election, what was their vote count, and what was their percentage of the total votes?  
   * Diana DeGette won the election, receiving 73.8% of the vote and 272,892 total votes  
+  
 ![results_terminal](https://user-images.githubusercontent.com/96501958/150663903-257669c6-17d9-4a04-b9fe-759d5b4dcf1c.png)  
 ![results_txt](https://user-images.githubusercontent.com/96501958/150663906-49a59f3c-2c95-4757-9caf-6b42f5030e6d.png)  
 
