@@ -28,9 +28,9 @@ Given the starter code, we initialized a county list (county_options) to hold th
 
 ## Results
 +How many votes were cast in this congressional election?
-  + 369,711 votes
+  + 369,711 votes  
 +Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.  
-  +The votes came from 3 different counties: Jefferson, Denver, and Arapahoe. Arapahoe county had the least amount of votes (24,801), making up 6.7% of the total votes. Jefferson county had 10.5% of the votes, or 38,855 votes. Denver county had the largest number of votes, making up 82.8% of the total votes and a vote count of 306, 055.  
+  +The votes came from 3 different counties: Jefferson, Denver, and Arapahoe. Arapahoe county had the least amount of votes (24,801), making up 6.7% of the total votes. Jefferson county had 10.5% of the votes, or 38,855 votes. Denver county had the largest number of votes, making up 82.8% of the total votes and a vote count of 306, 055.   
 +Which county had the largest number of votes?  
   + Denver  
 +Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.  
