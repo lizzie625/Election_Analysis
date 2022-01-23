@@ -19,12 +19,13 @@ We declared an empty dictionary (candidate_votes) and placed it below our candid
 ### Vote Percentages
 In order to determine the percentage of votes each candidate got, we need to create another for loop. The for loop retreives the number of votes each candidate received, calculates the percentage of the votes, and prints the name and vote percentage. We then create an if statement inside the for loop to determine the winning candidate, count, and percentage. This statement determines if the votes are more than the winning count, if they are, then the winning count is set to equal votes and the winning percentage is set to equal the vote percentage. We then add a print statement to print the winning candidates name, number of votes, and percentage of votes. 
 
+# Module 3 Challenge  
 ## Challenge Overview
 The election commission has requested that we also determine the voter turnout for each county, the percentage of votes from each county out of the total count, and the county with the highest turnout. We will use the same .csv file for this analysis.
 ### Methods
-Given the starter code, we initialized a county list (county_options) to hold the names of the counties in the data and a dictionary(county_votes). WE then created a string to help us track the largest county and county voter turnout. We already had a for loop with the election results data inside, we added code into the for loop that allowed us to get the county name from each row. We then added another if statement inside the for loop. It states that if a county name is not yet in the county options, it will be added. We can then begin tracking each county's vote count, adding a vote to the count for every loop. We then wrote another for loop, this one needed to get the county from its respective dictionary, retrieve the county vote count, and calculate the percentage of votes for each county. 
+Given the starter code, we initialized a county list (county_options) to hold the names of the counties in the data and a dictionary(county_votes). WE then created a string to help us track the largest county and county voter turnout. We already had a for loop with the election results data inside, we added code into the for loop that allowed us to get the county name from each row. We then added another if statement inside the for loop. It states that if a county name is not yet in the county options, it will be added. We can then begin tracking each county's vote count, adding a vote to the count for every loop. We then wrote another for loop, this one needed to get the county from its respective dictionary, retrieve the county vote count, and calculate the percentage of votes for each county. We then printed these results and saved them to our text file. We wrote an if statement in our new for loop, this time to determine which couty had the largest voter turnout and what its vote count was. We saved the result to the same text file.  
 ![county_forloop](https://user-images.githubusercontent.com/96501958/150663749-8cf95b55-2a59-4aca-8cc0-75a865e425af.png)  
-We then printed these results and saved them to our text file. We wrote an if statement in our new for loop, this time to determine which couty had the largest voter turnout and what its vote count was. We saved the result to the same text file. 
+
 ### Results
 +How many votes were cast in this congressional election?
   + 369,711 votes
@@ -37,6 +38,8 @@ We then printed these results and saved them to our text file. We wrote an if st
   +Diana DeGette received 272,892 votes, 73.8% of total votes. 
   +Raymon Anthony Doane received 11,606 votes, 3.1% of total votes. 
 +Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
-  + Diana DeGette won the election, receiving 73.8% of the vote and 272,892 total votes
-### Analysis
+  + Diana DeGette won the election, receiving 73.8% of the vote and 272,892 total votes  
+![results_terminal](https://user-images.githubusercontent.com/96501958/150663903-257669c6-17d9-4a04-b9fe-759d5b4dcf1c.png)  
+![results_txt](https://user-images.githubusercontent.com/96501958/150663906-49a59f3c-2c95-4757-9caf-6b42f5030e6d.png)  
+
 ## Challenge Summary
