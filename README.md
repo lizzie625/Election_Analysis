@@ -27,18 +27,19 @@ Given the starter code, we initialized a county list (county_options) to hold th
 ![county_forloop](https://user-images.githubusercontent.com/96501958/150663749-8cf95b55-2a59-4aca-8cc0-75a865e425af.png)  
 
 ## Results
-+How many votes were cast in this congressional election?
-  + 369,711 votes  
-+Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.  
-  +The votes came from 3 different counties: Jefferson, Denver, and Arapahoe. Arapahoe county had the least amount of votes (24,801), making up 6.7% of the total votes. Jefferson county had 10.5% of the votes, or 38,855 votes. Denver county had the largest number of votes, making up 82.8% of the total votes and a vote count of 306, 055.   
-+Which county had the largest number of votes?  
-  + Denver  
-+Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.  
-  +The three candidates who received votes were Charles Casper Stockham, Diana DeGette, and Raymon Anthony Doane.     +Charles Casper Stockham received 85,213 votes, 23.0% of total votes.  
-  +Diana DeGette received 272,892 votes, 73.8% of total votes.  
-  +Raymon Anthony Doane received 11,606 votes, 3.1% of total votes.  
-+Which candidate won the election, what was their vote count, and what was their percentage of the total votes?  
-  + Diana DeGette won the election, receiving 73.8% of the vote and 272,892 total votes  
+How many votes were cast in this congressional election?
++ 369,711 votes  
+Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.  
++The votes came from 3 different counties: Jefferson, Denver, and Arapahoe. Arapahoe county had the least amount of votes (24,801), making up 6.7% of the total votes. Jefferson county had 10.5% of the votes, or 38,855 votes. Denver county had the largest number of votes, making up 82.8% of the total votes and a vote count of 306, 055.   
+Which county had the largest number of votes?  
++ Denver  
+Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.  
++The three candidates who received votes were Charles Casper Stockham, Diana DeGette, and Raymon Anthony Doane.   
++Charles Casper Stockham received 85,213 votes, 23.0% of total votes.  
++Diana DeGette received 272,892 votes, 73.8% of total votes.  
++Raymon Anthony Doane received 11,606 votes, 3.1% of total votes.  
+Which candidate won the election, what was their vote count, and what was their percentage of the total votes?  
++ Diana DeGette won the election, receiving 73.8% of the vote and 272,892 total votes  
 ![results_terminal](https://user-images.githubusercontent.com/96501958/150663903-257669c6-17d9-4a04-b9fe-759d5b4dcf1c.png)  
 ![results_txt](https://user-images.githubusercontent.com/96501958/150663906-49a59f3c-2c95-4757-9caf-6b42f5030e6d.png)  
 
